@@ -9,13 +9,23 @@
   "categories": [
     "Other"
   ],
-  "activationEvents": [],
+  "activationEvents": [
+  ],
   "main": "./out/extension.js",
   "contributes": {
+    "menus": {
+      "editor/context": [
+        {
+          "when": "editorLangId == markdown",
+          "command": "markdown-sort.list",
+          "group": "navigation"
+        }
+      ]
+    },
     "commands": [
       {
-        "command": "markdown-sort.helloWorld",
-        "title": "Hello World"
+        "command": "markdown-sort.list",
+        "title": "Sort Markdown List"
       }
     ]
   },
