@@ -1,71 +1,38 @@
 # markdown-sort README
 
-This is the README for your extension "markdown-sort". After writing up a brief description, we recommend including the following sections.
+**markdown list 排序功能，可在VScode插件中下载**。
 
-## Features
+## 功能
 
-Describe specific features of your extension including screenshots of your extension in action. Image paths are relative to this README file.
+这是一个示例：
 
-For example if there is an image subfolder under your extension project workspace:
+![](img/qn7e8-x38dd.gif)
 
-\!\[feature X\]\(images/feature-x.png\)
+> Tip: 支持选中markdown列表的分级排序。对非列表内容保持原顺序和位置。
 
-> Tip: Many popular extensions utilize animations. This is an excellent way to show off your extension! We recommend short, focused animations that are easy to follow.
 
-## Requirements
+## 如何使用
 
-If you have any requirements or dependencies, add a section describing those and how to install and configure them.
+例：
 
-## Extension Settings
++ 选中需要排序的列表，命令行中输入`Sort Markdown List`
++ 选中需要排序的列表，右键`Sort Markdown List`
 
-Include if your extension adds any VS Code settings through the `contributes.configuration` extension point.
 
-For example:
+## 问题
 
-This extension contributes the following settings:
+如果有bug，请发送如下邮件1205620322@qq.com
 
-* `myExtension.enable`: Enable/disable this extension.
-* `myExtension.thing`: Set to `blah` to do something.
-
-## Known Issues
-
-Calling out known issues can help limit users opening duplicate issues against your extension.
-
-## Release Notes
-
-Users appreciate release notes as you update your extension.
+## 版本
 
 ### 1.0.0
 
-Initial release of ...
++ 仅支持列表排序
 
-### 1.0.1
 
-Fixed issue #.
-
-### 1.1.0
-
-Added features X, Y, and Z.
-
----
-
-## Following extension guidelines
-
-Ensure that you've read through the extensions guidelines and follow the best practices for creating your extension.
-
-* [Extension Guidelines](https://code.visualstudio.com/api/references/extension-guidelines)
-
-## Working with Markdown
-
-You can author your README using Visual Studio Code. Here are some useful editor keyboard shortcuts:
-
-* Split the editor (`Cmd+\` on macOS or `Ctrl+\` on Windows and Linux).
-* Toggle preview (`Shift+Cmd+V` on macOS or `Shift+Ctrl+V` on Windows and Linux).
-* Press `Ctrl+Space` (Windows, Linux, macOS) to see a list of Markdown snippets.
-
-## For more information
+## 更多信息
 
 * [Visual Studio Code's Markdown Support](http://code.visualstudio.com/docs/languages/markdown)
 * [Markdown Syntax Reference](https://help.github.com/articles/markdown-basics/)
 
-**Enjoy!**
+**启动!**
